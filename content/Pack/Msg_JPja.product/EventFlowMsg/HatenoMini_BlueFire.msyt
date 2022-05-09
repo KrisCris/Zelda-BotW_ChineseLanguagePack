@@ -97,7 +97,7 @@ entries:
   near05:
     attributes: Npc_AncientDoctor_Hateno
     contents:
-      - text: Hey！
+      - text: 嘿！
   near06:
     attributes: Npc_AncientDoctor_Hateno
     contents:

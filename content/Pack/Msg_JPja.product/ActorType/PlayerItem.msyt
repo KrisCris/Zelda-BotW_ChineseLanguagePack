@@ -77,7 +77,7 @@ entries:
       - text: 弓箭袋
   Obj_Porch_Shield_Desc:
     contents:
-      - text: "可以收纳盾牌的小袋子，\n数量越多，可携带的弓越多。"
+      - text: "可以收纳盾牌的小袋子，\n数量越多，可携带的盾牌越多。"
   Obj_Porch_Shield_MenuDesc:
     contents: []
   Obj_Porch_Shield_Name:
@@ -85,7 +85,7 @@ entries:
       - text: 盾牌袋
   Obj_Porch_Weapon_Desc:
     contents:
-      - text: "可以收纳武器的小袋子，\n数量越多，可携带的弓越多。"
+      - text: "可以收纳武器的小袋子，\n数量越多，可携带的武器越多。"
   Obj_Porch_Weapon_MenuDesc:
     contents: []
   Obj_Porch_Weapon_Name:

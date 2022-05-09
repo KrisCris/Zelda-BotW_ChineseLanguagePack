@@ -14,7 +14,7 @@ entries:
       - text: "力量的\n塞尔达公主精疲力尽之时……\n灾厄盖侬将会完全复活，世界也将迎来终焉。\n\n你能在那之前救出塞尔达公主吗……"
   QL_GanonQuest_Finished:
     contents:
-      - text: "不要？\n根据灾厄盖侬的不同形态分步实施比较好。"
+      - text: "不要？\n根据灾厄盖侬的不同形态，分步实施比较好。"
   QL_GanonQuest_Name:
     contents:
       - text: 讨伐盖侬

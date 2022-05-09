@@ -4,4 +4,4 @@ atr1_unknown: 0
 entries:
   talk00:
     contents:
-      - text: "This feature can be used only with the\nWii U GamePad. Switch to the Wii U\nGamePad to play."
+      - text: "此功能仅可用于Wii U GamePad。\n请切换到Wii U GamePad进行游戏。"

@@ -498,14 +498,14 @@ entries:
       - control:
           kind: pause
           length: short
-      - text: "\n需要服饰找我们"
+      - text: "\n买服饰就找"
       - control:
           kind: set_colour
           colour: blue
-      - text: 宾托‧艾斯特
+      - text: 奔托·艾斯特
       - control:
           kind: reset_colour
-      - text: 就对了～
+      - text: ～
   talk01:
     attributes: Npc_HatenoVillage019
     contents:
@@ -522,10 +522,10 @@ entries:
       - control:
           kind: set_colour
           colour: blue
-      - text: 宾托‧艾斯特
+      - text: 奔托·艾斯特
       - control:
           kind: reset_colour
-      - text: 晚上也有营业喔～
+      - text: 晚上也有营业～
   talk02:
     attributes: Npc_HatenoVillage019
     contents:
@@ -629,7 +629,7 @@ entries:
       - control:
           kind: pause
           length: short
-      - text: "\n从大家平常穿的衣服，到士兵先生的防具都有～\n还请您慢慢参观～"
+      - text: "\n从日常衣物到士兵大人的防具应有尽有～\n请您慢慢参观～"
   talk06:
     attributes: Npc_HatenoVillage019
     contents:
@@ -836,11 +836,11 @@ entries:
       - control:
           kind: pause
           length: short
-      - text: "\n质量有保证的"
+      - text: "\n御用的"
       - control:
           kind: set_colour
           colour: blue
-      - text: 宾托‧艾斯特
+      - text: 奔托·艾斯特
       - control:
           kind: reset_colour
       - text: ～
