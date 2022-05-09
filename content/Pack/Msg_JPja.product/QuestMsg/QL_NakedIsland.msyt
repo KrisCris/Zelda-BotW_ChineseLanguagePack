@@ -1,0 +1,35 @@
+---
+group_count: 5
+atr1_unknown: 0
+entries:
+  QL_NakedIsland_Desc:
+    contents:
+      - text: "登上塞哈特诺岛后忽闻人声，\n你的武器和防具被夺走了。\n\n你暂时放弃了试练，\n武器和防具都回到了手中，\n\n不过你还会去那座岛接受试练吗……"
+  QL_NakedIsland_Finish:
+    contents:
+      - text: "向3个祭坛献上宝珠后，\n岛的最高处出现了一座古代神庙。\n\n之后你又听到有人低语，\n被夺走的装备回到了你的手上。"
+  QL_NakedIsland_Naked:
+    contents:
+      - text: "登上塞哈特诺岛后忽闻人声，\n你的武器和防具被夺走了。\n\n据说只要向岛上的3处祭坛献上"
+      - control:
+          kind: set_colour
+          colour: red
+      - text: 宝珠
+      - control:
+          kind: reset_colour
+      - text: "，\n就可以拿回装备……"
+  QL_NakedIsland_Name:
+    contents:
+      - text: 野外的试练
+  QL_NakedIsland_OnceRetire:
+    contents:
+      - text: "登上塞哈特诺岛后忽闻人声，\n你的武器和防具被夺走了。\n\n据说只要向岛上的3处祭坛献上"
+      - control:
+          kind: set_colour
+          colour: red
+      - text: 宝珠
+      - control:
+          kind: reset_colour
+      - text: "，\n就可以拿回装备……"
+  QL_NakedIsland_Warning:
+    contents: []

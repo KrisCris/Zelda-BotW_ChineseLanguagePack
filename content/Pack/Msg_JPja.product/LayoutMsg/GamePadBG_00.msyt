@@ -1,0 +1,10 @@
+---
+group_count: 11
+atr1_unknown: 0
+entries:
+  T_Text_00:
+    contents:
+      - text: "点击此处\n以在 Wii U GamePad 上进行游戏。"
+  T_Text_01:
+    contents:
+      - text: 点击 Wii U GamePad 屏幕以在电视上进行游戏。

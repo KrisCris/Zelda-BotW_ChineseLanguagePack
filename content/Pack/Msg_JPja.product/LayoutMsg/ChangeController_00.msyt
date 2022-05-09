@@ -1,0 +1,19 @@
+---
+group_count: 5
+atr1_unknown: 0
+entries:
+  T_Text_00:
+    contents:
+      - text: "使用Wii U GamePad\n进行游戏。"
+  T_Text_01:
+    contents:
+      - text: "使用Wii U Pro Controller\n进行游戏。"
+  T_Text_02:
+    contents:
+      - text: 在电视上进行游戏。
+  T_Text_03:
+    contents:
+      - text: "在Wii U GamePad上\n进行游戏。"
+  T_Text_04:
+    contents:
+      - text: 现在无法切换游戏模式。

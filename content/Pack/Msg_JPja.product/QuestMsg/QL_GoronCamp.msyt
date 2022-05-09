@@ -1,0 +1,26 @@
+---
+group_count: 3
+atr1_unknown: 0
+entries:
+  QL_GoronCamp_Desc:
+    contents:
+      - text: "你即将接受来自热血的\n鼓隆三兄弟的严～峻训练。\n\n其名为"
+      - control:
+          kind: set_colour
+          colour: red
+      - text: 攀登毅力崖挑战
+      - control:
+          kind: reset_colour
+      - text: "！！！\n\n准备好了就向巴恺忒搭话吧。"
+  QL_GoronCamp_Finish:
+    contents:
+      - text: "你完成了攀崖训练，\n让三兄弟离开了神庙的入口！\n\n攀崖好像可以无限次挑战，\n而且还有更难的路线等待着你。"
+  QL_GoronCamp_GameReady:
+    contents:
+      - text: "“你打开冒险笔记干什么鼓咯！\n现在正在训练当中鼓咯！！\n快去攀登顶峰回来鼓咯！！！”\n\n——巴恺忒"
+  QL_GoronCamp_Name:
+    contents:
+      - text: 鼓隆的毅力崖挑战
+  QL_GoronCamp_ResetGame:
+    contents:
+      - text: "你看那些字干什么，兄弟？！\n这些文字不应该出现在这里！\n你最好立即向上级汇报！！！"

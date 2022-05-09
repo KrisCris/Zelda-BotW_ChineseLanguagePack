@@ -1,0 +1,664 @@
+---
+group_count: 29
+atr1_unknown: 4
+entries:
+  "5500":
+    attributes: ""
+    contents:
+      - text: 是的
+  "5501":
+    attributes: ""
+    contents:
+      - text: 没有
+  "5502":
+    attributes: ""
+    contents:
+      - text: 要买
+  "5503":
+    attributes: ""
+    contents:
+      - text: 还是算了
+  "5504":
+    attributes: ""
+    contents:
+      - text: 买点什么？
+  "5505":
+    attributes: ""
+    contents:
+      - text: 有什么卖？
+  "5506":
+    attributes: ""
+    contents:
+      - text: 不了
+  "5507":
+    attributes: ""
+    contents:
+      - text: 全部购买
+  "5508":
+    attributes: ""
+    contents:
+      - text: 全部出售
+  Com_Talk_00:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 你要出售哪个？
+  Com_Talk_01:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: "打算出售吗？\n"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 这可是很划算的价格了，不是吗？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_02:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 非常感谢
+      - control:
+          kind: pause
+          length: short
+      - text: "\n还有其他物品要出售么？"
+  Com_Talk_02b:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: sound2
+          unknown:
+            - 9
+            - 205
+      - text: 真是太好了… 十分感谢。
+  Com_Talk_02c:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: sound2
+          unknown:
+            - 9
+            - 205
+      - text: 谢谢。
+  Com_Talk_02d:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: sound2
+          unknown:
+            - 9
+            - 205
+      - text: 那么，拜托你了。
+  Com_Talk_03:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 还有什么事吗？
+  Com_Talk_04:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 真是太遗憾了。
+  Com_Talk_05:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 我会收购任何东西！
+  Com_Talk_05b:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 请尽情挑选。
+  Com_Talk_05c:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 好的，我收购，就把它们交给我吧！
+  Com_Talk_05d:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 什么？能卖给我吗？
+  Com_Talk_06:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 你买哪一个？
+  Com_Talk_07:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 不好意思，这家伙现在很悲伤
+  Com_Talk_08:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 卢比好像不够，
+      - control:
+          kind: pause
+          length: short
+      - text: "\n赚点钱再来吧。"
+  Com_Talk_09:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 似乎袋子里的空间满了，
+      - control:
+          kind: pause
+          length: short
+      - text: "\n请出售或扔掉一些，腾出空间。"
+  Com_Talk_10:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - text: "要买么？\n"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 怎么样？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5502
+            - 5503
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_11:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 承蒙惠顾！
+  Com_Talk_11b:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: sound2
+          unknown:
+            - 9
+            - 205
+      - text: 好的，谢谢。
+  Com_Talk_11c:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: sound2
+          unknown:
+            - 9
+            - 205
+      - text: 承蒙惠顾，多谢。
+  Com_Talk_11d:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: sound2
+          unknown:
+            - 9
+            - 205
+      - text: 承蒙惠顾！
+  Com_Talk_12:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: "全是最好的物品，\n请随意挑选！"
+  Com_Talk_13:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: "要卖给我吗？\n有多少？"
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5508
+            - 5503
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Com_Talk_14:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: 要是
+      - control:
+          kind: variable
+          variable_kind: 15
+          name: Shop_TradeItemNum
+      - text: "个的话，\n合计"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 怎么样？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_15:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 我暂时付不起这么多。
+  Com_Talk_16:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 身上的衣服必须脱下来才能交易哦。
+  Com_Talk_20:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: "在这样的天气下开展冒险之旅真是辛苦，\n好不容易才把这些都摆出来！"
+  Com_Talk_30:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: 要是
+      - control:
+          kind: variable
+          variable_kind: 15
+          name: Shop_TradeItemNum
+      - text: "个的话，\n合计"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 怎么样？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_31:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: "要卖给我吗？\n有多少？"
+      - control:
+          kind: choice
+          choice_labels:
+            - 5502
+            - 5507
+            - 5503
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Com_Talk_33:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: 只有一个？
+      - control:
+          kind: pause
+          length: short
+      - text: "\n那么"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 怎么样？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_34:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: 全部这些？
+      - control:
+          kind: pause
+          length: short
+      - text: "\n"
+      - control:
+          kind: variable
+          variable_kind: 15
+          name: Shop_TradeItemNum
+      - text: 个的话，
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 怎么样？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_35:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: 要是
+      - control:
+          kind: variable
+          variable_kind: 15
+          name: Shop_TradeItemNum
+      - text: "个全部？\n合计"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: ，怎么样？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_36:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: "交易完毕，\n很高兴交易了这么多物品。"
+  Com_Talk_37:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: "今天的商品已经售罄了，\n感谢你买了这么多！\n你要不要看看预售清单？"
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_50:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: 啊？
+      - control:
+          kind: pause
+          length: short
+      - text: "\n"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 怎么样？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_51:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: 购买？
+      - control:
+          kind: pause
+          length: short
+      - text: "\n你想要多少？"
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5507
+            - 5503
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Com_Talk_52:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: 要是
+      - control:
+          kind: variable
+          variable_kind: 15
+          name: Shop_TradeItemNum
+      - text: "个的话，\n合计"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 怎么样？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_53:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: "唉......\n是个好东西，真遗憾啊。"
+  Com_Talk_54:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: 嘿，我的卢比哪里去了，竟然不够。
+  Com_Talk_55:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: "请仔细检查袋子的容量，\n出售或扔掉一些物品以腾出空间。"
+  Com_Talk_56:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: 只有一个么？
+      - control:
+          kind: pause
+          length: longer
+      - text: "\n那么"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 18
+          name: ShopTradePrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 怎么样？
+      - control:
+          kind: choice
+          choice_labels:
+            - 5502
+            - 5503
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_60:
+    attributes: Npc_Kakariko010
+    contents:
+      - control:
+          kind: set_colour
+          colour: blue
+      - control:
+          kind: variable
+          variable_kind: 11
+          name: Shop_SelectItemName
+      - control:
+          kind: reset_colour
+      - text: "？\n那么，"
+      - control:
+          kind: set_colour
+          colour: red
+      - control:
+          kind: variable
+          variable_kind: 16
+          name: Shop_SelectItemPrice
+      - text: 卢比
+      - control:
+          kind: reset_colour
+      - text: 怎么样！
+      - control:
+          kind: choice
+          choice_labels:
+            - 5500
+            - 5501
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Com_Talk_61:
+    attributes: Npc_Kakariko010
+    contents:
+      - text: "真遗憾，\n再看看别的吧！"

@@ -1,0 +1,211 @@
+---
+group_count: 37
+atr1_unknown: 0
+entries:
+  Obj_Album_Desc:
+    contents: []
+  Obj_Album_MenuDesc:
+    contents: []
+  Obj_Album_Name:
+    contents:
+      - text: 相册
+  Obj_AmiiboItem_Desc:
+    contents:
+      - text: "amiibo是一个神奇的道具。\n联动它可以召唤出各种各样的物品。"
+  Obj_AmiiboItem_MenuDesc:
+    contents:
+      - text: "amiibo是一个神奇的道具。\n联动它可以召唤出各种各样的物品。"
+  Obj_AmiiboItem_Name:
+    contents:
+      - text: amiibo
+  Obj_Camera_Desc:
+    contents: []
+  Obj_Camera_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n可以利用这一装置将旅行途中的风景、\n物品和人物的图像保存起来。"
+  Obj_Camera_Name:
+    contents:
+      - text: 照相机
+  Obj_DRStone_Get_Desc:
+    contents:
+      - text: "中间面板会发光的一块神奇石板。\n虽然是第一次看到的东西，\n可是总觉得很怀念。"
+  Obj_DRStone_Get_MenuDesc:
+    contents:
+      - text: "得到了中间发光的四角形神奇石头！\n虽然是第一次看到的东西，\n可是总觉得心里很怀念。"
+  Obj_DRStone_Get_Name:
+    contents:
+      - text: 希卡之石
+  Obj_IceMaker_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n一旦照射在有水的地方，\n就会制作成冰柱。"
+  Obj_IceMaker_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n一旦照射在有水的地方，\n就会制作成冰柱。"
+  Obj_IceMaker_Name:
+    contents:
+      - text: 制冰器
+  Obj_Magnetglove_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n照射金属制的物品，\n就可以远程操作那个物体。"
+  Obj_Magnetglove_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n照射金属制的物品，\n就可以远程操作那个物体。"
+  Obj_Magnetglove_Name:
+    contents:
+      - text: 磁力抓取器
+  Obj_Motorcycle_Desc:
+    contents: []
+  Obj_Motorcycle_MenuDesc:
+    contents: []
+  Obj_Motorcycle_Name:
+    contents:
+      - text: 大师摩托Zero
+  Obj_PictureBook_Desc:
+    contents: []
+  Obj_PictureBook_MenuDesc:
+    contents: []
+  Obj_PictureBook_Name:
+    contents:
+      - text: 海拉鲁图鉴
+  Obj_Porch_Bow_Desc:
+    contents:
+      - text: "可以收纳弓的小袋子，\n数量越多，可携带的弓越多。"
+  Obj_Porch_Bow_MenuDesc:
+    contents: []
+  Obj_Porch_Bow_Name:
+    contents:
+      - text: 弓箭袋
+  Obj_Porch_Shield_Desc:
+    contents:
+      - text: "可以收纳盾牌的小袋子，\n数量越多，可携带的弓越多。"
+  Obj_Porch_Shield_MenuDesc:
+    contents: []
+  Obj_Porch_Shield_Name:
+    contents:
+      - text: 盾牌袋
+  Obj_Porch_Weapon_Desc:
+    contents:
+      - text: "可以收纳武器的小袋子，\n数量越多，可携带的弓越多。"
+  Obj_Porch_Weapon_MenuDesc:
+    contents: []
+  Obj_Porch_Weapon_Name:
+    contents:
+      - text: 武器袋
+  Obj_RemainInsideMap_Desc:
+    contents: []
+  Obj_RemainInsideMap_MenuDesc:
+    contents: []
+  Obj_RemainInsideMap_Name:
+    contents:
+      - text: 古物地图
+  Obj_RemoteBombBall2_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。\n已强化，冷却时间缩短。"
+  Obj_RemoteBombBall2_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。\n已强化，冷却时间缩短。"
+  Obj_RemoteBombBall2_Name:
+    contents:
+      - text: 遥控炸弹＋
+  Obj_RemoteBombBall_Desc:
+    contents: []
+  Obj_RemoteBombBall_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。"
+  Obj_RemoteBombBall_Name:
+    contents:
+      - text: 遥控炸弹
+  Obj_RemoteBombCube2_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。\n已强化，冷却时间缩短。"
+  Obj_RemoteBombCube2_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。\n已强化，冷却时间缩短。"
+  Obj_RemoteBombCube2_Name:
+    contents:
+      - text: 遥控炸弹＋
+  Obj_RemoteBombCube_Desc:
+    contents: []
+  Obj_RemoteBombCube_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。"
+  Obj_RemoteBombCube_Name:
+    contents:
+      - text: 遥控炸弹
+  Obj_RemoteBombLv2_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。\n已强化，冷却时间缩短。"
+  Obj_RemoteBombLv2_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。\n已强化，冷却时间缩短。"
+  Obj_RemoteBombLv2_Name:
+    contents:
+      - text: 遥控炸弹＋
+  Obj_RemoteBomb_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。"
+  Obj_RemoteBomb_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n以爆炸来达到破坏的目的。\n设置后，可以在想要的时间点使其爆炸。"
+  Obj_RemoteBomb_Name:
+    contents:
+      - text: 遥控炸弹
+  Obj_SheikPadLv2_Desc:
+    contents:
+      - text: 罕见的希卡族石头，其原始功能已修复。
+  Obj_SheikPadLv2_MenuDesc:
+    contents:
+      - text: 罕见的希卡族石头，其原始功能已修复。
+  Obj_SheikPadLv2_Name:
+    contents:
+      - text: 希卡之石
+  Obj_SheikSensorLv2_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n利用声音，探索旅行中的遗迹，\n距离目标越近，提示声越密集。\n已强化，可对相册中的物品进行追踪。"
+  Obj_SheikSensorLv2_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n利用声音，探索旅行中的遗迹，\n距离目标越近，提示声越密集。\n已强化，可对相册中的物品进行追踪。"
+  Obj_SheikSensorLv2_Name:
+    contents:
+      - text: 希卡感应器＋
+  Obj_SheikSensor_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n利用声音，探索旅行中的遗迹，\n距离目标越近，提示声越密集。"
+  Obj_SheikSensor_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n利用声音，探索旅行中的遗迹，\n距离目标越近，提示声越密集。"
+  Obj_SheikSensor_Name:
+    contents:
+      - text: 希卡感应器
+  Obj_StopTimerLv2_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n瞄准照射后，会在一定时间内\n使无机物或邪恶怪物的动态静止下来。\n当静止的物体受到攻击时也会积蓄一定的冲击。\n"
+  Obj_StopTimerLv2_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n瞄准照射后，会在一定时间内\n使无机物或邪恶怪物的动态静止下来。\n当静止的物体受到攻击时也会积蓄一定的冲击。\n"
+  Obj_StopTimerLv2_Name:
+    contents:
+      - text: 静止器＋
+  Obj_StopTimer_Desc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n瞄准照射后，会在一定时间内\n使无机物的动态静止下来。\n当静止的物体受到攻击时也会积蓄一定的冲击。"
+  Obj_StopTimer_MenuDesc:
+    contents:
+      - text: "这是古代希卡族的一门技术。\n瞄准照射后，会在一定时间内\n使无机物的动态静止下来。\n当静止的物体受到攻击时也会积蓄一定的冲击。"
+  Obj_StopTimer_Name:
+    contents:
+      - text: 静止器
+  PlayerStole2_Desc:
+    contents:
+      - text: "在初始台地从海拉鲁国王那得到的，\n可以迎着风滑翔的道具。\n在空中按"
+      - control:
+          kind: icon
+          icon:
+            x: 12
+      - text: 使用吧。
+  PlayerStole2_MenuDesc:
+    contents:
+      - text: "从海拉鲁国王那得到的，\n就算是高高的地方也可以安全着陆的道具。\n可以一边环顾周围，一边滑翔，心情会很好。"
+  PlayerStole2_Name:
+    contents:
+      - text: 滑翔帆

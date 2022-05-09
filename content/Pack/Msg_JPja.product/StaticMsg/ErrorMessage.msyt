@@ -1,0 +1,147 @@
+---
+group_count: 29
+atr1_unknown: 0
+entries:
+  "1501011":
+    contents:
+      - text: 插入磁盘
+  "1501013":
+    contents:
+      - text: "连接USB存储设备\n到USB端口。"
+  "1501014":
+    contents:
+      - text: "插入SD卡到\nSD卡槽。"
+  "1501021":
+    contents:
+      - text: "磁盘无法读取。\n\n按EJECT键，移除磁盘，\n检查磁盘卷标方向是否正确。\n确保Wii U或Wii标志向上。"
+  "1501023":
+    contents:
+      - text: "USB存储设备\n无法使用。\n\n关于可支持的USB存储设备，\n详情请访问：\nsupport.nintendo.com."
+  "1501024":
+    contents:
+      - text: "该SD卡无法使用。\n\n关于可支持的SD卡，\n参见Wii U电子说明书，\n“使用SD卡”部分。"
+  "1501031":
+    contents:
+      - text: "磁盘无法读取。\n可能受到污染。\n\n按EJECT键，移除磁盘，\n轻柔清理，\n请使用软布擦拭，\n由中间向外擦拭。\n\n如果问题仍然存在，请联系\n当地客户技术支持中心，\n并报出错误代码。\n具体联系方式，参见Wii U\n重要信息手册，或访问\nsupport.nintendo.com"
+  "1501044":
+    contents:
+      - text: "SD卡出现错误。\n请移除SD卡。"
+  "1501063":
+    contents:
+      - text: "USB存储设备\n写入保护。\n\n当设备出现写入保护时，\n请参照说明书。"
+  "1501064":
+    contents:
+      - text: "SD卡写入保护。\n\n请打开SD卡的\n写入保护，\n以解锁位置。"
+  "1501071":
+    contents:
+      - text: "磁盘插入控制台\n出现不同的软件标题。\n\n请更换磁盘。"
+  "1501090":
+    contents:
+      - text: "出现一个错误。\n\n如果你的控制台上有磁盘，\n按EJECT键移除磁盘。\n\n关掉Wii U控制台，\n拔掉AC转接器\n联系当地客服中心，\n汇报错误代码。\n具体联系方式，参见Wii U\n重要信息手册，或访问\nsupport.nintendo.com"
+  "1510101":
+    contents:
+      - text: "与控制器通信被打断。\n\n请按除电源键的任何按钮。\n如果没有响应，\n充电或更换合适的电池，\n再试一次。"
+  "1550100":
+    contents:
+      - text: "没有足够的可用空间创建保存数据。\n\n\n请到系统中的数据管理进行设置，\n以腾出空间。"
+  "1550205":
+    contents:
+      - text: 插入磁盘
+  "1550213":
+    contents:
+      - text: "USB存储设备\n写入保护。\n\n当设备出现写入保护时，\n请参照说明书。"
+  "1559000":
+    contents:
+      - text: "无法创建存储数据。\n\n关闭WiiU控制台，\n拔下电源插头。\n联系您当地的客户支持中心，\n提交错误代码。有关联系方式，\n\n请查看WiiU重要信息手册\n或访问support.nintendo.com。"
+  "1650101":
+    contents:
+      - text: "无法与之WiiU GamePad通信。\n请检查GamePad屏幕。\n\n如果GamePad电池电量不足，请充电。\n\n"
+  "1680300":
+    contents:
+      - text: "尝试访问amiibo时发生错误。\n请重试。"
+  "1680400":
+    contents:
+      - text: 这不是amiibo。
+  "1680409":
+    contents:
+      - text: "这是一个无效的amiibo。\n\n如果问题仍然存在，\n请联系您当地的客户支持中心。\n有关联系方式，\n请查看Wii U重要信息手册或\n访问support.nintendo.com。"
+  "1680500":
+    contents:
+      - text: "amiibo数据已损坏。\n\n你想用保存在这个控制台的\n数据恢复吗？"
+  1680500_NX:
+    contents:
+      - text: "amiibo数据已损坏。\n\n你想用保存在这个控制台的\n数据恢复吗？"
+  "1680510":
+    contents:
+      - text: "amiibo数据已损坏。\n如果你有一个访问过此amiibo的\n任天堂设备，可以恢复。\n\n\n如果没有，请通过重置amiibo，\n系统设置⇒amiibo设置。"
+  1680510_NX:
+    contents:
+      - text: "amiibo数据已损坏。\n\n如果你有一个访问过此amiibo的\n任天堂设备，可以恢复。\n还可以请通过\n选择菜单目录中的\n "
+      - control:
+          kind: raw
+          zero:
+            one:
+              field_1: 2
+              field_2: 2
+      - text: 
+      - control:
+          kind: font
+          font_kind: normal
+      - text: " （系统设置） ⇒ amiibo进行恢复。\n"
+  "1680530":
+    contents:
+      - text: "请为这个amiibo注册\n一个用户和昵称。"
+  "1680550":
+    contents:
+      - text: "此amiibo已从另一个软件收到数据。\n\n\n你想删除原数据\n并从本地更新么？"
+  "1680570":
+    contents:
+      - text: 这不是同一个amiibo。
+  "1680590":
+    contents:
+      - text: 不支持此amiibo。
+  "1681800":
+    contents:
+      - text: "系统内存已损坏。\n请关闭Wii U控制台然后再试一次。\n\n\n如果问题仍然存在，\n请联系您当地的客户支持中心。\n有关联系方式，\n请查看Wii U重要信息手册或\n访问support.nintendo.com。"
+  "1681999":
+    contents:
+      - text: "尝试访问amiibo时发生错误。\n请重试。"
+  "1682001":
+    contents:
+      - text: "发生错误，请稍后再试。\n\n\n请注意，如果在写入amiibo时发生此错误，\namiibo的数据可能已经丢失。\n"
+  "1689999":
+    contents:
+      - text: "尝试访问amiibo时发生错误，\n请关闭WiiU控制台，然后重试。\n\n\n如果问题仍然存在，请联系\n您当地的客户支持中心。\n有关联系方式，\n请查看WiiU重要信息手册\n或访问support.nintendo.com。"
+  "1999999":
+    contents:
+      - text: "发生错误。\n\n请关掉电源，然后再试一次。\n\n\n如果问题仍然存在，\n请联系您当地的客户支持中心。\n有关联系方式，\n请查看Wii U重要信息手册或\n访问support.nintendo.com。"
+  "5000000":
+    contents:
+      - text: "您必须执行系统更新\n来运行塞尔达传说：旷野之息。\n\n\n返回Wii U菜单。"
+  Btn101:
+    contents:
+      - text: OK
+  Btn150:
+    contents:
+      - text: Close
+  Btn206_L:
+    contents:
+      - text: Cancel
+  Btn206_R:
+    contents:
+      - text: Restore
+  Btn207_L:
+    contents:
+      - text: Cancel
+  Btn207_R:
+    contents:
+      - text: Register
+  Btn208_L:
+    contents:
+      - text: Cancel
+  Btn208_R:
+    contents:
+      - text: Delete
+  Title:
+    contents:
+      - text: 错误码：

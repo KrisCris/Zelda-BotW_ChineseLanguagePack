@@ -2,6 +2,8 @@
 *.sbfarc filter=lfs diff=lfs merge=lfs -text
 *.pack filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
+*.msbt filter=lfs diff=lfs merge=lfs -text
+*.msyt filter=lfs diff=lfs merge=lfs -text
 *.md !text !filter !merge !diff
 *.pack !text !filter !merge !diff
 *.sbfarc !text !filter !merge !diff
