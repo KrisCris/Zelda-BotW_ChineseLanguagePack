@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5880b51a62f80aec0867d489c76811a02fd3e27a6cd55b296c2605f41a1a1323
-size 442
+{
+  "name": "Simplified Chinese Language Pack - A Switch Port",
+  "image": "",
+  "url": "",
+  "desc": "A Chinese Language Pack Ported From Nintendo Switch Version Of The Game. Fixed and packed by connlost.",
+  "version": "1.0.0",
+  "options": {},
+  "depends": [],
+  "showCompare": false,
+  "showConvert": false,
+  "platform": "wiiu",
+  "priority": 9998,
+  "id": "U2ltcGxpZmllZCBDaGluZXNlIExhbmd1YWdlIFBhY2sgLSBBIFN3aXRjaCBQb3J0PT0xLjAuMA=="
+}
