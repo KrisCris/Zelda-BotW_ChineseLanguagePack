@@ -676,7 +676,7 @@ entries:
           unknown:
             - 0
             - 6
-      - text: One、
+      - text: 一、
       - control:
           kind: pause
           length: short
@@ -689,11 +689,11 @@ entries:
           unknown:
             - 0
             - 4
-      - text: One、
+      - text: 一、
       - control:
           kind: pause
           length: short
-      - text: Two、
+      - text: 二、
       - control:
           kind: pause
           length: short
@@ -706,11 +706,11 @@ entries:
           unknown:
             - 0
             - 4
-      - text: One、
+      - text: 一、
       - control:
           kind: pause
           length: short
-      - text: Two、
+      - text: 二、
       - control:
           kind: pause
           length: short
@@ -727,11 +727,11 @@ entries:
           unknown:
             - 1
             - 11
-      - text: One、
+      - text: 一、
       - control:
           kind: pause
           length: short
-      - text: Two、
+      - text: 二、
       - control:
           kind: pause
           length: short
