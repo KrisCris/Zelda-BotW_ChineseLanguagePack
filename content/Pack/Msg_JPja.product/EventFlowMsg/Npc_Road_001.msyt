@@ -875,7 +875,7 @@ entries:
       - text: 霸主
       - control:
           kind: reset_colour
-      - text: "”触摸……\n那边平时几乎没有动物的身影……"
+      - text: "”出没……\n那边平时几乎没有动物的身影……"
       - control:
           kind: pause
           length: long
